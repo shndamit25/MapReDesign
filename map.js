@@ -92,14 +92,14 @@ require([
       zoom: mapConfiguration.zoom
     });
 
-/*    var csvLayer = new CSVLayer({
+    var csvLayer = new CSVLayer({
       url: mapConfiguration.csvUrl,
       labelingInfo: [locationLabels],
       renderer: iconRenderer,
       popupTemplate: popupTemplate
     });
 
-    map.add(csvLayer);*/
+    map.add(csvLayer);
 
   }
 
